@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Alegreya', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Start Home */
+#home {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 130vh;
+}
+
+.nav img {
+    width: 180px;
+    float: left;
+    color: white;
+    padding: 20px 70px ;
+}
+
+.nav ul {
+    float: right;
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 40px 20px;
+    font-size: 18px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: #8e7754;
+}
+
+.caption {
+    text-align: center;
+    color: white;
+    padding: 150px;
+    line-height: 1.5;
+    margin: auto;
+}
+.caption p {
+    font-size: 22px;
+
+}
+.caption h1 {
+    font-family: 'Alegreya';
+    font-weight: 400;
+    font-size: 76px;
+}
+.caption .paragraph-two {
+    font-size: 24px;
+}
+.caption .btn-one, .btn-two {
+    padding: 15px 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px white solid;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 50px 5px;
+    border-radius: 3px;
+}
+.caption .hover:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.caption .btn-one {
+    background-color: #8e7754;
+    border: none;
+}
+.caption .circle {
+    width: 30px;
+    height: 50px;
+    margin: 70px auto;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.caption .circle .point {
+    background-color: white;
+    margin: 5px auto;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* End Home */
+
+
+/* Start section-one */
+.section-one {
+    width: 90%;
+    margin: 90px auto;
+    height: 75vh;
+}
+
+.section-one .section-img {
+    width: 40%;
+    display: inline-block;
+}
+
+.section-one .section-img img {
+    width: 100%;
+}
+
+.section-one .section-one-info {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 50px;
+}
+.section-one .section-one-info h2 {
+    font-family: 'Alegreya';
+    font-size: 30px;
+    line-height: 2;
+    font-weight: 400;
+}
+.section-one .section-one-info p {
+    line-height: 2;
+}
+
+.section-one .section-one-info .icons {
+    margin: 10px auto;
+}
+
+.section-one .icons .icon {
+    padding: 5px;
+}
+
+.section-one .icons .icon img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(190, 183, 183);
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.section-one .icons .icon p {
+    display: inline-block;
+    padding: 10px;
+}
+/* End section-one */
+
+
+
+/* start section two */
+.section-two {
+    width: 100%;
+    background-color: #eee;
+}
+
+.section-two .section-two-info {
+    width: 40%;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 50px;
+}
+.section-two .section-two-info h2 {
+    font-family: 'Alegreya';
+    font-size: 30px;
+    line-height: 2;
+    font-weight: 400;
+}
+.section-two .section-two-info p {
+    line-height: 2;
+}
+
+.section-two .section-two-img {
+    width: 40%;
+    display: inline-block;
+    margin: 70px;
+}
+
+.section-two .section-two-img img {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+}
+/* End section two */
+
+/* star section-three */
+.section-three {
+    width: 100%;
+    margin: 60px auto;
+    text-align: center;
+}
+.section-three .content {
+    width: 26%;
+    float: left;
+    padding-left: 70px;
+    margin: 40px 0;
+}
+.section-three .content img {
+    width: 100%;
+}
+.section-three h3 {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 20px;
+}
+.section-three p {
+    padding: 10px ;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.section-three .content h4 {
+    padding-top: 30px;
+    font-size: 22px;
+    font-weight: 400;
+}
+/* End section-three */
+
+/* start section-four */
+.section-four {
+    width: 100%;
+    height: 130vh;
+    background-color: #eee;
+}
+
+.section-four .content {
+    width: 45%;
+    float: left;
+}
+
+.section-four .content h4 {
+    padding: 90px 0 20px 50px;
+    font-size: 32px;
+    font-family: 'Alegreya';
+    font-weight: 400;
+}
+
+.section-four .content p {
+    padding: 20px 0 30px 50px;
+}
+
+.section-four .icon {
+    padding: 5px;
+}
+
+.section-four .icon img {
+    width: 40px;
+    height: 40px;
+    background-color: #8e7754;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0 10px 50px ;
+}
+
+.section-four .icon p {
+    display: inline-block;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.iframe {
+    margin: auto ;
+    width: 45%;
+    float: right;
+    padding: 50px;
+}
+
+.iframe iframe {
+    width: 100% ;
+    height: 60%;
+}
+
+/* End section-four */
+
+/* start footer */
+.footer {
+    width: 100%;
+    height: 80vh;
+    background-color: #403d38;
+}
+
+.footer .one,
+.two, .three, .four {
+    float: left;
+    width: 24%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.footer div h5 {
+    padding: 30px 30px 10px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+.footer div p {
+    color: #969696;
+}
+.footer .one p {
+    padding: 20px;
+}
+.footer .two p,
+.three p {
+    padding: 15px;
+}
+
+.footer .icon {
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 85%;
+}
+
+.footer .four .icon img {
+    width: 12%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0;
+}
+
+.footer .icon p {
+    font-size: 17px;
+    display: inline-block;
+}
+.footer .icon .paragraph {
+    display: inline;
+}
+
+.footer .hr {
+    margin: 0;
+    width: 90%;
+    height: 1px;
+    background-color: #eeeeee12;
+    display: inline-block;
+}
+/* End footer */
+
+/* start footer-img */
+.footer-img {
+    width: 100%;
+    background-color: #353330;
+    color: #777777;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer-img p {
+    padding: 25px ;
+}
+
+.footer-img .icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #484540;
+    margin-left: 10px;
+}
+
+.footer-img .icons .facebook:hover {
+    background-color: RGB(59, 89, 152);
+    cursor: pointer;
+}
+.footer-img .icons .google:hover {
+    background-color:RGB(221, 75, 57);
+    cursor: pointer;
+}
+.footer-img .icons .linkedin:hover {
+    background-color:RGB(0, 123, 181);
+    cursor: pointer;
+}
+.footer-img .icons .twitter:hover {
+    background-color:RGB(0, 172, 237);
+    cursor: pointer;
+}
+/* Endt footer-img */
